@@ -8,7 +8,7 @@ class SurveysController < ApplicationController
     end
 
     def sum_score
-        params[:q1].to_i + params[:q2].to_i + params[:q3].to_i
+        params[:q1].to_i + params[:q2].to_i + params[:q3].to_i + params[:q4].to_i
     end
 
 
